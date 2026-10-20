@@ -4,36 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>ZIN</title>
+    <!-- miało być bez css, ale potrzebuję tej linijki  -->
+    <style>body { font-family: "Comic Sans MS", "Comic Sans", cursive; }</style>
 </head>
 <body>
 <header> <h1> Prywatny Blog Biednego Studenta</h1>
 <p> Przed rozpoczęciem lektury zaleca się przemyślenie wyborów życiowych</p></header>
 <nav>
   <h2> Regestr zawartości niniejszego pisma </h2>
-  <a href="#art">Najnowsze doniesienia z krowodrzy i okolic</a>
-  <a href="#side">Ciekawostka</a>
-  <a href="#rank">Ranking</a>
-  <a href="#schedule"> Grafik Autobusowy </a>
-    
+    <ul>
+  <li><a href="#art">Najnowsze doniesienia z krowodrzy i okolic</a></li>
+  <li><a href="#side">Ciekawostka</a></li>
+  <li><a href="#rank">Ranking</a> </li>
+  <li><a href="#schedule"> Grafik Autobusowy </a></li>
+    </ul>
 </nav>
 <main>
- <h2>Najnowsze doniesienia z Krowodrzy i okolic</h2>
+ <h2 id="art">Najnowsze doniesienia z Krowodrzy i okolic</h2>
     <article>
         <h3>Manifest</h3>
          <p>   "Lorem ipsum obwarzanek sit amet, smogus Krakoviensis ne extremus."  </p>
-            
-            Analitycy rynkowi ostrzegają: Sezon grzewczy jeszcze się nie rozpoczął, przynajmniej nie w moim mieszkaniu nie mniej uprasz się zakup maseczek <p> 
+
+         <h3>Najnowsze Informacje</h3>
+          <p>  Analitycy rynkowi ostrzegają: Sezon grzewczy jeszcze się nie rozpoczął, przynajmniej nie w moim mieszkaniu nie mniej uprasz się zakup maseczek </p> 
                 
-        Je skvělé, že máme jídelnu na Ruczaji. Konečně si můžeme dát doběd blízko!
+      <p></p>   Je skvělé, že máme jídelnu na Ruczaji. Konečně si můžeme dát doběd blízko!
         </p>
     </article>
   <aside>
-  <h2>Ciekawostka na dzisiaj</h2>
+  <h2 id="side">Ciekawostka na dzisiaj</h2>
       <p> w Krakowie do tego momentu istnieją budynki, które mają wbudowane specjalne uchwyty na zostawienie swojej pochodnii. Przy wejściach do niektórych kamienic znajdują się też metalowe elementy, przy których można zostawić konie </p>
       <p> Redakcja dziękuje serdecznie Panu K.Vinograposov za nadesłanie ciekawostki. </p>
   </aside>
   <div>
-      <h2> top 5 zwierząt miasta Kraków </h2>
+      <h2 id="rank"> top 5 zwierząt miasta Kraków </h2>
     <ol type="1">
       <li>Gołąb nr 9 </li>
       <li>Dzik z Ruczaju</li>
@@ -43,7 +47,7 @@
     </ol>
   </div>
   <div>
-    <h2> Grafik zatłoczenia Autobusów i Tramwajów w ubiegłym tygodniu według oceny redakcji</h2>
+    <h2 id="schedule"> Grafik zatłoczenia Autobusów i Tramwajów w ubiegłym tygodniu według oceny redakcji</h2>
   <table>
     <tr>
       <th>godzina</th> <th>numer linii</th> <th>Czy warto wsiadać? </th>
