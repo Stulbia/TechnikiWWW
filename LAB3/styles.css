@@ -47,3 +47,7 @@ article, div {
     flex-direction: column;
     background: pink;
 }
+
+ tr, th, td{
+    border: deeppink solid;
+}
