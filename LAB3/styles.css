@@ -1,0 +1,49 @@
+
+
+
+
+body{
+    background: #ff9cac;
+    color: rgb(81, 4, 34);
+    font-family: Monda;
+    padding: 10%;
+}
+
+h1,h2,h3 {
+    font-family: Bahiana;
+
+}
+
+h1:hover,h2:hover,h3:hover{
+    color: deeppink;
+    transition:  2s ease;
+}
+
+h1{
+    font-size: xxx-large;
+    padding-left: 2%;
+}
+h2{
+    font-size: xx-large;
+}
+h3 {
+    font-size: x-large;
+}
+main, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img{
+    width: 100%;
+
+}
+
+article, div {
+    padding: 5%;
+    border: solid deeppink;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    background: pink;
+}
