@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GSA - Gamedev Student's Association</title>
+    <meta name="description" content="GSA – studenckie koło naukowe: projektowanie, programowanie, turnieje i badania nad grami.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+    <div class="wrap">
+        <a class="logo" href="#start">🎮 GSA</a>
+        <div class="nav-group">
+            <nav aria-label="Główna nawigacja">
+                <ul>
+                    <li><a href="#o-kole">O kole</a></li>
+                    <li><a href="#harmonogram">Harmonogram</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-btn" type="button" aria-label="Przełącz motyw kolorystyczny">
+                 Jasny motyw
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="wrap hero" id="start">
+        <div class="hero-text">
+            <span class="tag">Studenckie Koło Naukowe</span>
+            <h1>Robimy <span class="rainbow-text">gry</span>.</h1>
+            <p>GSA łączy ludzi, którzy chcą tworzyć gry, badać je i rozmawiać o nich na poważnie. Dołącz do nas – niezależnie od tego, czy kodujesz, rysujesz, projektujesz, czy po prostu grasz.</p>
+            <a class="btn" href="#kontakt">Dołącz do koła</a>
+        </div>
+
+<!--        <div id="figura" role="img" aria-label=" figura 3D "></div>-->
+    </div>
+
+    <aside>
+        <h2> MKPG! </h2>
+   <p> Trwa rekrutacja na <span class="rainbow-text"> Małopolską Konferencję produkcji gier </span> </p>
+    <p> Jeżeli interesuje Cię udział w wydarzeniu, więcej informacji znajdziesz <a href=""> tutaj </a> </p></aside>
+    <section id="o-kole">
+        <div class="wrap">
+            <h2>Czym się zajmujemy?</h2>
+            <p class="lead">W ciągu roku akademickiego koło organizuje wydarzenia dedykowane dla studentów (i nie tylko) oraz działa w podziale na sekcje. </p>
+            <div class="cards">
+                <article class="card">
+                    <h3>Sekcja Shaderów</h3>
+                    <p>Piszemy własne efekty wizualne, shadery GLSL i optymalizujemy graficzne aspekty renderowania.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja Grafiki 3D</h3>
+                    <p>Modelujemy obiekty, tworzymy tekstury i ożywiamy postacie w trójwymiarowej przestrzeni.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja Narracja</h3>
+                    <p>Tworzymy wciągające fabuły, rozwijamy światy gier i projektujemy nieliniowe scenariusze.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja Dyskusyjna</h3>
+                    <p>Analizujemy rynkowe premiery, rozmawiamy o designie i debatujemy nad trendami w branży.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja RPG</h3>
+                    <p>Prowadzimy sesje papierowych gier fabularnych i badamy mechaniki grami napędzane.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja Godot</h3>
+                    <p>Poznajemy lekki i wszechstronny silnik Godot, tworząc gry w języku GDScript.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja Unity</h3>
+                    <p>Budujemy gry 2D i 3D w środowisku Unity, wykorzystując potęgę języka C#.</p>
+                </article>
+                <article class="card">
+                    <h3>Sekcja Unreal</h3>
+                    <p>Odkrywamy możliwości Unreal Engine, tworząc fotorealistyczną grafikę i zaawansowane mechaniki.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="harmonogram">
+        <div class="wrap">
+            <h2>Harmonogram spotkań sekcji</h2>
+            <p class="lead">spotkania dla członków i wszystkich osób zainteresowanych.</p>
+            <div class="table-box">
+                <table>
+                    <caption>Plan wydarzeń – semestr zimowy</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Sekcja</th>
+                        <th scope="col">Miejsce</th>
+                        <th scope="col"> Dzień </th>
+                        <th scope="col">Godzina</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="rainbow-text">Grafiki 3D</td>
+                        <td>Pokój Koła (H-0-5 FAIS UJ)</td>
+                        <td> Wtorek </td>
+                        <td>17:00</td>
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">Shader</td>
+                        <td>zdalnie</td>
+                        <td>???</td>
+                        <td>???</td>
+
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">Narracja</td>
+                        <td>Pokój Koła (H-0-5 FAIS UJ)</td>
+                        <td> Środa </td>
+                        <td>18:30</td>
+
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">Dyskusyjna</td>
+                        <td>Zdalnie - serwer discord</td>
+                        <td> Piątek </td>
+                        <td>20:00</td>
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">RPG</td>
+                        <td>Runa Cafe - Stradom</td>
+                        <td>Poniedziałek</td>
+                        <td>19:00</td>
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">Godot</td>
+                        <td>???</td>
+                        <td>???</td>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">Unity</td>
+                        <td>???</td>
+                        <td>???</td>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td class="rainbow-text">Unreal</td>
+                        <td>???</td>
+                        <td>???</td>
+                        <td>???</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <div class="wrap">
+            <h2>Skontaktuj się z nami</h2>
+            <p class="lead">Chcesz dołączyć, zaproponować projekt albo zadać pytanie? Wypełnij formularz, a odpowiemy najszybciej, jak się da.</p>
+
+            <form action="mailto:kontakt@GSA.example" method="post" enctype="text/plain">
+                <div class="row">
+                    <div class="field">
+                        <label for="imie">Imię i nazwisko</label>
+                        <input type="text" id="imie" name="Imię i nazwisko" placeholder="Jan Kowalski" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Adres e-mail</label>
+                        <input type="email" id="email" name="E-mail" placeholder="jan@uczelnia.pl" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="temat">Czego dotyczy wiadomość?</label>
+                    <select id="temat" name="Temat" required>
+                        <option value="" disabled selected>Wybierz temat…</option>
+                        <option>Chcę dołączyć do koła</option>
+                        <option>Propozycja projektu</option>
+                        <option>Współpraca / sponsoring</option>
+                        <option>Pytanie o wydarzenie</option>
+                        <option>Inne</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="wiadomosc">Wiadomość</label>
+                    <textarea id="wiadomosc" name="Wiadomość" placeholder="Napisz kilka słów o sobie i o tym, w czym chciał(a)byś pomóc…" required></textarea>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" id="zgoda" name="Zgoda" required>
+                    <label for="zgoda">Wyrażam zgodę na przetwarzanie moich danych w celu odpowiedzi na to zgłoszenie.</label>
+                </div>
+
+                <button class="btn" type="submit">Wyślij zgłoszenie</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="wrap">
+        Gamedev Students Association
+    </div>
+</footer>
+
+<!--&lt;!&ndash;<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>&ndash;&gt; for later ;3-->
+<script>
+    // zmiana motywu
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    function applyTheme(theme) {
+        if (theme === 'light') {
+            body.classList.add('light-theme');
+            themeToggleBtn.textContent = 'Ciemny motyw';
+        } else {
+            body.classList.remove('light-theme');
+            themeToggleBtn.textContent = 'Jasny motyw';
+        }
+    }
+
+    // sapisany motyw
+    const savedTheme = localStorage.getItem('gsa-theme');
+    if (savedTheme) {
+        applyTheme(savedTheme);
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+        const isLight = body.classList.toggle('light-theme');
+        const newTheme = isLight ? 'light' : 'dark';
+        localStorage.setItem('gsa-theme', newTheme);
+        applyTheme(newTheme);
+    });
+
+</script>
+<!--<script src="script.js"></script>-->
+</body>
+</html>
